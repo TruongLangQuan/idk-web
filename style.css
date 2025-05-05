@@ -34,8 +34,37 @@ body {
     border:2px solid whitesmoke;
     border-radius: 10px;
     
-  }  
-  .star {
+  }
+
+.sidebar {
+  width: 200px;
+  height: 100px;
+}
+
+audio {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+#credit {
+  display: flex;
+  gap: 16px;
+  justify-content: left;
+  align-items: bottom;
+  margin-top: 45%;
+}
+
+#credit a {
+  display: inline-flex;
+  align-items: bottom;
+  gap: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.star {
     position: absolute;
     width: 2px;
     height: 2px;
