@@ -18,3 +18,10 @@ function createStars() {
     }
 }  
 createStars();
+
+const openBtn = document.getElementById("open");
+const closeBtn = document.getElementById("close");
+const sidebar = document.querySelector(".sidebar");
+
+openBtn.onclick = () => sidebar.classList.add("show");
+closeBtn.onclick = () => sidebar.classList.remove("show");
