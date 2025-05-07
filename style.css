@@ -22,20 +22,6 @@ body {
     transform: translate(-50%, -50%);
   }
 
-#portfolio
-  button {
-    background-color: black;
-    color: whitesmoke;
-    font-size: 17px;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border:2px solid whitesmoke;
-    border-radius: 10px;
-    
-  }
-
 #open {
   background-color: black;
   color: #ffffff;

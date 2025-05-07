@@ -12,7 +12,6 @@
     <div id="portfolio">
         <img src="image/ellen.jpeg" height="150" width="150">
         <h3>Trưởng Làng Quân</h3>
-        <button>View</button>
     </div>
 
     <button id="open"><i class="fa-solid fa-bars"></i></button>
@@ -41,20 +40,21 @@
         </ul>            
     </div>
 
-    <!--<div id="lang">
-        <dl>
-            <dt>Python</dt>
-                <dd>1</dd>
-            <dt>HTML</dt>
-                <dd>2</dd>
-            <dt>CSS</dt>
-                <dd>3</dd>
-            <dt>Javascript</dt>
-                <dd>4</dd>
-            <dt>Pascal</dt>
-                <dd>5</dd>
-        </dl>
-    <div>-->
+    <div class="view">
+        <button class="view-bt" onclick="toggleView()">
+            View
+        </button>
+        
+        <div class="view-ct" id="lang">
+            <button onclick="showInfo('1')">Python</button>
+            <button onclick="showInfo('2')">HTML</button>
+            <button onclick="showInfo('3')">CSS</button>
+            <button onclick="showInfo('4')">Javascript</button>
+            <button onclick="showInfo('5')">Pascal</button>
+        </div>
+    </div>    
+
+    <div id="info-box">Thông tin sẽ hiển thị ở đây khi chọn mục.</div>
     
     <audio controls loop>
         <source src="music/thefatrat.mp3">
