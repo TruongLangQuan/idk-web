@@ -93,6 +93,52 @@ audio {
   color: #ffffff;
 }
 
+.view button {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 17px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border:2px solid whitesmoke;
+  border-radius: 10px;
+  cursor: pointer; 
+}
+
+.viewbt button {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 17px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border:2px solid whitesmoke;
+  border-radius: 10px;
+  cursor: pointer; 
+}
+
+.view-ct {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.view-ct button {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 17px;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border:2px solid whitesmoke;
+  border-radius: 10px;
+  cursor: pointer; 
+}
+
 .star {
     position: absolute;
     width: 2px;

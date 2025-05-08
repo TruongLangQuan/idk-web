@@ -1,1 +1,1 @@
-link (not seg): https://truonglangquan.github.io/idk-web/
+link: https://truonglangquan.github.io/idk-web/

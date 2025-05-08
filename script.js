@@ -31,15 +31,3 @@ function toggleView() {
   langBox.classList.toggle('show'); // Bật/tắt class để hiện/ẩn
 }
 
-function showInfo(code) {
-  let text = '';
-  switch (code) {
-    case '1': text = 'Python là ngôn ngữ đơn giản, dễ học, rất mạnh!'; break;
-    case '2': text = 'HTML là ngôn ngữ đánh dấu để tạo cấu trúc trang web.'; break;
-    case '3': text = 'CSS dùng để làm đẹp trang web.'; break;
-    case '4': text = 'JavaScript giúp web có tương tác và logic động.'; break;
-    case '5': text = 'Pascal là ngôn ngữ học thuật, phù hợp luyện thuật toán.'; break;
-  }
-  document.getElementById('info-box').innerText = text;
-}
-
